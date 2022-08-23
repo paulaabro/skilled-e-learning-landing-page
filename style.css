@@ -3,4 +3,153 @@
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
+  background-color: #fff;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.max-width {
+  max-width: 375px;
+  padding: 0 16px;
+}
+
+header img {
+  width: 89px;
+}
+
+header button {
+  background-color: #13183f;
+}
+
+.btn {
+  width: 140px;
+  height: 48px;
+
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 28px;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.description {
+  margin: 26px auto 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  color: #13183f;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+}
+
+.description p {
+  margin: 26px 0 24px;
+}
+
+.description button {
+  width: 167px;
+  height: 56px;
+
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+
+  background: linear-gradient(180deg, #ff6f48 0, #f02aa6 100%);
+  border-radius: 32px;
+  margin-bottom: 46px;
+}
+
+.description img {
+  display: block;
+  width: 327px;
+  margin: 0 auto;
+}
+
+.content {
+  background: linear-gradient(180deg, #fff 0, #f0f1ff 100%);
+  padding-bottom: 80px;
+}
+
+.course-heading {
+  background: linear-gradient(180deg, #ff6f48 0, #f02aa6 100%);
+  border-radius: 10px;
+  padding: 24px 28px 32px;
+}
+
+h2 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.course {
+  background-color: #fff;
+  box-shadow: 0 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 10px;
+  padding: 0 28px 32px;
+}
+
+.course img {
+  width: 56px;
+  margin-top: -24px;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13183f;
+  margin: 24px 0 16px;
+}
+
+a {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  margin-top: 24px;
+}
+
+footer div {
+  height: 120px;
+  background-color: #13183f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img {
+  width: 89px;
+}
+
+footer button {
+  background: linear-gradient(180deg, #4851ff 0, #f02aa6 100%);
 }
