@@ -82,11 +82,12 @@ p {
 }
 
 .content {
+  width: 100vw;
+  min-height: calc(100vh - 800px);
   background: linear-gradient(180deg, #fff 0, #f0f1ff 100%);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 40px;
 }
 
 .course-heading {
@@ -163,6 +164,7 @@ footer button {
   body {
     overflow-x: hidden;
   }
+
   header {
     height: 96px;
   }
@@ -174,6 +176,7 @@ footer button {
 
   .description {
     position: relative;
+    margin: 75px auto 186px;
   }
 
   .description div {
@@ -188,8 +191,7 @@ footer button {
   }
 
   .content {
-    margin-top: 186px;
-    padding-bottom: 30px;
+    min-height: calc(100vh - 641px);
   }
 
   .course-heading {
@@ -209,7 +211,6 @@ footer button {
 
   .course {
     width: 339px;
-    height: 259px;
     padding: 0 32px 32px 21px;
   }
 
@@ -219,5 +220,94 @@ footer button {
 
   footer img {
     width: 89px;
+  }
+}
+
+@media (min-width: 1440px) {
+  header {
+    height: 104px;
+  }
+
+  .max-width {
+    max-width: 1440px;
+    padding: 0 166px;
+  }
+
+  header img {
+    width: 111px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  header button:hover {
+    background: #666ca3;
+  }
+
+  .description {
+    margin: 157px auto 226px;
+  }
+
+  .description div {
+    width: 457px;
+  }
+
+  h1 {
+    font-size: 56px;
+    line-height: 71px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .description p {
+    margin: 29px 0 40px;
+  }
+
+  .description img {
+    height: 937px;
+    position: absolute;
+    top: -350px;
+    right: -228px;
+  }
+
+  .description button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+      linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  }
+
+  .content {
+    min-height: calc(100vh - 837px);
+  }
+
+  .course-heading {
+    width: 350px;
+    padding: 64px 32px 138px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .course {
+    width: 350px;
+    padding: 0 32px 40px;
+  }
+
+  footer div {
+    width: 1440px;
+  }
+
+  footer img {
+    width: 111px;
+  }
+
+  footer button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+      linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
   }
 }
